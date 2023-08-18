@@ -15,7 +15,7 @@ import lombok.experimental.FieldDefaults;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class UserCreateDto {
 
-    Integer id;
+    Long id;
 
     @NotBlank(message = "name can not be blank")
     String name;

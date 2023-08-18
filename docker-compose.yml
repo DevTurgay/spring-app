@@ -28,9 +28,8 @@ services:
       spring-database-network:
 
   spring-app:
-    image: spring-app:v9
+    build: ./
     container_name: spring-app
-    restart: on-failure
     depends_on:
       - spring-mysql
     ports:

@@ -13,7 +13,7 @@ import lombok.experimental.FieldDefaults;
 @Builder
 public class UserResponseDto {
 
-    Integer id;
+    Long id;
 
     String name;
     String surname;
